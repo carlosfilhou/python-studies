@@ -28,4 +28,4 @@ acompanhado_pais = True
 
 pode_entrar = altura >= altura_minima or acompanhado_pais
 
-print("essa criança pode entrar no brinquedoo?", pode_entrar)
+print("essa criança pode entrar no brinquedooz?", pode_entrar)
