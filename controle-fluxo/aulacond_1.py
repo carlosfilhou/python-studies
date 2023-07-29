@@ -9,4 +9,4 @@ elif idade >= 12 and idade < 18:
 elif idade >= 70:
     print("idoso")
 else:
-    print("criança")
+    print("criançaa")
