@@ -1,5 +1,9 @@
 # estrutura while
 
-while true:
-    print(1)
-    print(2)
+i = 1
+
+while i <= 100:
+    print(i)
+    i = i + 1
+
+print("fim.")
