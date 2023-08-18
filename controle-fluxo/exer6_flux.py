@@ -17,3 +17,5 @@ while True:
             print(n, "é primo!")
         else:
             print(n, "não é primo!")
+
+# Finalizado
