@@ -12,3 +12,4 @@ while i < 3:
         print("Esse número é maior que o número pré-definido pelo sistema.")
     else:
         print("VOCÊ ACERTOU, ESSE É NÚMERO CORRETO! \n" "O jogo terminou." )
+        break
