@@ -26,8 +26,21 @@ print("Aqui está o último valor que foi removido \n", x)
 
 # aqui um exemplo de que no Python você pode armazenar valores de qualquer tipo em uma lista
 
-cadastro = ["Carlos", 28, 1.88] # lembrando que o NOME está na posição/índice 0, a idade está no 1 e assim por diante...
+pessoa = ["José", 32, 1.60] # lembrando que o NOME está na posição/índice 0, a idade está no 1 e assim por diante...
+
+print("Imprimindo a lista pessoa \n", pessoa)
+
+print("Imprimindo a altura da pessoa \n", pessoa[2])
+
+
+# aqui um exemplo de que no Python você pode criar uma lista dentro de uma lista
+
+cadastro = [
+    ["Carlos", 28, 1.88],
+    ["João", 27, 1.85],
+    ["Rafael", 29, 1.76]
+]
 
 print("Imprimindo a lista cadastro \n", cadastro)
 
-print("Imprimindo a altura da pessoa cadastrada \n", cadastro[2])
+print("Imprimindo o índice número 1 da lista cadastro \n",cadastro[1])
