@@ -38,7 +38,7 @@ print("Imprimindo a altura da pessoa \n", pessoa[2])
 cadastro = [
     ["Carlos", 28, 1.88],
     ["João", 27, 1.85],
-    ["Rafael", 29, 1.76]
+    ["Rafael", 29, 1.75]
 ]
 
 print("Imprimindo a lista cadastro \n", cadastro)
