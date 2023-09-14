@@ -44,3 +44,22 @@ cadastro = [
 print("Imprimindo a lista cadastro \n", cadastro)
 
 print("Imprimindo o índice número 1 da lista cadastro \n",cadastro[1])
+
+# somando a média das notas em uma lista
+
+notas = [1, 10, 30, 9, 40]
+
+i = 0
+total = 0
+
+qtd = len(notas) # aqui o médodo 'len' irá dizer quantos elementos existem nessa lista.
+
+while i < qtd:
+    total = total + notas[i]
+    i = i + 1
+
+print("O total das notas é:", total)
+
+media = total / qtd
+
+print("A média das notas é:", media)
