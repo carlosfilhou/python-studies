@@ -10,6 +10,10 @@ lista.insert(0 ,0) # usando o método insert para inserir um valor no índice de
 
 print("Aqui está a lista com um valor inserido no primeiro índice \n", lista)
 
+lista[0] = 0.1 # ou você também pode fazer dessa forma, sem utilizar método
+
+print("Aqui está a lista com um valor inserido no índice '0' sem usar o método insert \n", lista)
+
 lista.sort() # usando o método "sort" para odernar os valores entre sí
 
 print("Aqui está a lista de forma ordenada \n", lista)
