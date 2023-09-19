@@ -22,4 +22,7 @@ pessoa = ("Carlos", 28, True)
 
 nome, idade, admin = pessoa # isso irá fazer com que o elemento do índice 0 vá para a primeira variável, o elemento do índicie 1 para a segunda e assim por diante...
 
-print(nome, idade, admin)
+print(nome, idade, admin) # é importante saber que isso também funciona com listas
+
+
+# por fim o que irá valer é a intensão do que você quer passar no seu código e então o que você irá utilizar para simplicar isso, seja listas ou tuplas
