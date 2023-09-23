@@ -6,7 +6,9 @@ print(type(usuarios))
 
 # você também pode declarar um conjunto a partir de uma lista como no exemplo a baixo
 
-usuarios_2 = set(["alice", "bob"])
+usuarios_2 = set(
+    ["alice", "bob"]
+    )
 
 print(type(usuarios_2))
 
