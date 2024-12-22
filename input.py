@@ -7,8 +7,8 @@ print("sua idade é: ", idade, " (esse valor é uma STRING)")
 
 # EM PYTHON O VALOR RETORNADO NO INPUT SEMPRE SERÁ UMA STRING
 # PARA ALTERAR, SERÁ NECESSÁRIO USAR O MÉTODO (INT)
-dias = input("Digite a quantidade de dias: ")
-dias = int(dias)  # usando método (int), também podemos usar o float)
+# usando método (int), também podemos usar o float)
+dias = int(input("Digite a quantidade de dias: "))
 print("o número de dias é: ", dias, " (esse valor é do tipo INT)")
 
 
