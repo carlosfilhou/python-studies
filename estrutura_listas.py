@@ -1,4 +1,4 @@
-# LISTAS (estrutura de dados ORDENADAS, ordenação de inserção)
+# LISTAS (LIST) (estrutura de dados ORDENADAS, ordenação de inserção)
 # É MAIS USADA EM UMA LISTA HOMOGÊNEA (ELEMENTOS DO MESMO TIPO)
 
 # lista homogênea, com elementos do mesmo tipo

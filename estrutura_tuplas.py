@@ -1,5 +1,6 @@
-# TUPLAS (são imutáveis, ou seja, depois de criada não será possível alterar seus elementos)
+# TUPLAS (TUPLES) (estrutura de dados ORDENADAS, ordenação de inserção)
 # É MAIS USADA EM UMA LISTA HETEREOGÊNEA (ELEMENTOS DE TIPOS DIFERENTES)
+# (são imutáveis, ou seja, depois de criada não será possível alterar seus elementos)
 
 notas = (4, 2, 6)  # uso de parenteses é opcional
 
