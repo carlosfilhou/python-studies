@@ -1,4 +1,5 @@
-# TIPOS DE VARIAVEIS
+# TIPOS DE VARIAVEIS/OBJETOS
+
 # string
 "Olá mundo"
 
@@ -16,7 +17,7 @@ False
 
 # ----------------------------------
 
-# ARMAZENANDO VALORES EM VARIAVEIS
+# ATRIBUINDO OU ARMAZENANDO VALORES EM VARIAVEIS
 nota1 = 5
 nota2 = 5
 total = nota1 + nota2
