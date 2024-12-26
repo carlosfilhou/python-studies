@@ -1,4 +1,5 @@
-# CONDICIONAIS
+# CONDICIONAIS (estrutura de decisão SE, SENÃO)
+# É MAIS USADO PARA DEFINIR FLUXOS DIFERENTES DE EXECUÇÃO BASEADOS EM UMA CONDIÇÃO BOOLEANA.
 
 idade = input("Digite a sua idade: ")
 idade = int(idade)

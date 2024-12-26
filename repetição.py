@@ -1,4 +1,5 @@
-# REPETIÇÃO
+# WHILE (estrutura de repetição ENQUANTO a condição for verdadeira)
+# É MAIS USADO PARA EXECUTAR UM BLOCO DE CÓDIGO REPETIDAMENTE ATÉ QUE UMA CONDIÇÃO BOOLEANA SEJA FALSA.
 
 i = 1
 while i < 51:

@@ -1,4 +1,5 @@
-# INPUT
+# INPUT (função para ENTRADA de dados do usuário)
+# É MAIS USADO PARA RECEBER INFORMAÇÕES DIGITADAS PELO USUÁRIO DURANTE A EXECUÇÃO DO PROGRAMA.
 
 # REBENDO INPUT DO USUARIO
 idade = input("Digite a idade: ")
