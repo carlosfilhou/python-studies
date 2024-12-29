@@ -19,6 +19,14 @@ for i in valores:
 
 # --------------------------------------
 
+alunos = [
+    ("Alice", 8),
+    ("Bob", 7),
+    ("Carlos", 9),
+]
+
+for aluno in alunos:
+    print(aluno[1])  # Isso imprime a segunda posição da tupla (a nota)
 
 cadastro = {
     "Carlos": 123,

@@ -18,8 +18,8 @@ soma_parcial = 0
 
 # somando todos o elementos da lista
 for i in lista:
-    soma_parcial = soma_total + i
-    soma_total = soma_parcial
+    soma_total = i + soma_parcial
+    soma_parcial = soma_total
 
 # calculando a média
 media = soma_total // qtd_elementos  # sempre TOTAL dividido pela QUANTIDADE
