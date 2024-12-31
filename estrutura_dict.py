@@ -31,6 +31,23 @@ joao = {
     }
 }
 
+# uma lista de dicionário
+alunos = [
+    {
+        "nome": "Alice",
+        "nota": 8
+    },
+    {
+        "nome": "Bob",
+        "nota": 7
+    },
+]
+
+# desempacotando uma lista de dicionário e somando os elementos
+for aluno in alunos:
+    nome, nota = aluno["nome"], aluno["nota"]
+    print(nome, nota)
+
 # acessando o dia pela chave
 print("Aqui está a nota de Carlos no dicionário:", notas["Carlos"])
 print("Aqui o dia 1 de janeiro será", janeiro[1])
