@@ -47,4 +47,22 @@ def calcular_conta(consumo, taxa_servico):
 valor_final = calcular_conta(consumo=100, taxa_servico=0.1)
 
 # printando a variável
-print("O valor calculado é:", valor_final)
+print("O valor calculado é da função que retorna é:", valor_final)
+
+
+# -----------------------------------------
+
+
+# definindo uma função com parâmetro padrão
+# (ATENÇÃO PRIMEIRO ARG POSICIONAL E DEPOIS ARG NOMEADO)
+def calcular_conta(consumo, taxa_servico=0.1):
+    servico = consumo * taxa_servico
+    valor = consumo + servico
+    return valor
+
+
+# passar o argumento é opcional pois ele ja tem um valor padrão no parâmetro
+valor_final = calcular_conta(consumo=200)
+
+# printando a variável
+print("O valor calculado com taxa de servico padrão é:", valor_final)
